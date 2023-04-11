@@ -1,0 +1,351 @@
+.submisson_main .sub{
+    font-size: 32px;
+    font-weight: 700;
+    color: #060C1B;
+    padding: 36px 36px 0px;
+    margin-bottom: 26px;
+}
+
+/* .submisson_main{
+    padding: 36px;
+} */
+
+.search input{
+    border: 1px solid #B8B9BC;
+    height: 48px;
+    width: 334px;
+    border-radius: 4px;
+    padding-left: 35px;
+    color: #B8B9BC;
+    font-size: 16px;
+
+}
+
+.search{
+    position: relative;
+    display: inline-block;
+    color: #B8B9BC;
+}
+
+.mail span{
+    font-size: 16px;
+}
+
+.searchicons{
+position: absolute;
+top: 50%;
+left: 15px;
+transform: translateY(-50%);
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main select{
+    border: none;
+    width: 100%;
+    color: #060C1B;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    padding: 0 10px;
+}
+
+.date_piker{
+margin-left: 40px;
+}
+.export{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.export i{
+    color: #2188D9;
+}
+.export span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2188D9;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 36px;
+}
+.button_part{
+    display: flex;
+    align-items: center;
+}
+.btn_part{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    margin-right: 8px;
+    font-size: 16px;
+}
+.btn_part button{
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.btn_part button:first-child{
+    background-color: #2188D9;
+    color: #ffffff;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: 2px solid #2188D9;
+    border-radius: 4px 0 0 4px;
+}
+.btn_part button:last-child{
+    border: 2px solid #B8B9BC;
+    font-size: 16px;
+    font-weight: 400;
+    color: #060C1B;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    border-left: none !important;
+}
+
+.work_flow{
+    width: 33.33%;
+}
+.workflow h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #060C1B;
+    margin: 0;
+}
+
+.uncom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.uncom button{
+    border: 1px solid #FF3D00;
+    background: rgba(255, 61, 0, 0.1);
+    color: #FF3D00;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 12px;
+    line-height: 25px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.due_date input{
+    color:#FF3D00 !important;
+    font-weight: 500 !important;
+
+}
+.mail input{
+    border: none !important;
+    padding-left: 10px !important;
+    color:  #060C1B ;
+    font-weight: 400;
+    font-size: 16px;
+    height: auto !important;
+}
+
+.uncom button p{
+    background: #FF3D00;
+    height: 12px;
+    width: 12px;
+}
+.workflow:nth-child(2) .uncom button{
+    border: 1px solid #53D86A;
+    background: #D7E5DA;
+    color:  #53D86A;
+}
+.workflow:nth-child(2)  .uncom button span{
+    background: #53D86A;
+    height: 12px;
+    width: 12px;
+}
+.workflow:nth-child(4) .uncom button{
+    border: 1px solid #B8B9BC;
+    background: #ECECED;
+    color:  #B8B9BC;
+
+    
+}
+.workflow:nth-child(4)  .uncom button span{
+    background: #B8B9BC;
+    height: 12px;
+    width: 12px;
+}
+
+.uncom  span{
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.workflow{
+    border: 1px solid #B8B9BC;
+    margin-right: 40px;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.part_main{
+    display: flex;
+    margin-top: 36px;
+    padding: 0 0 0 36px;
+}
+
+.workflow:last-child{
+    margin-bottom: 0;
+}
+
+::ng-deep .main .mat-form-field-wrapper{
+    padding: 0 !important;
+}
+
+::ng-deep .main .mat-form-field-infix{
+    margin: 0;
+    border-top: 0;
+    border: 1px solid #B8B9BC;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 30px !important;
+    height: 48px;
+    width: 200px;
+
+}
+
+
+::ng-deep .main .mat-form-field-label-wrapper{
+    padding: 0;
+}
+::ng-deep .main .mat-form-field-underline{
+    display: none;
+}
+
+::ng-deep .main .mat-form-field-type-mat-native-select .mat-form-field-infix::after{
+    right: 15px;
+}
+
+
+::ng-deep .date_piker .mat-form-field-flex {
+background-color: transparent;
+border: 1px solid #B8B9BC;
+padding: 0 !important;
+position: relative;
+}
+
+::ng-deep .main .date_piker .mat-form-field-infix{
+    border: none !important;
+    margin: 0 !important;
+}
+
+::ng-deep .main .date_piker input{
+    margin-left: 50px;
+}
+
+::ng-deep .main .mat-form-field-suffix{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+
+@media (max-width:1399px){
+    .flex{
+        padding: 0 20px;
+    }
+    .search input{
+        width:  auto;
+    }
+    .part_main{
+        padding: 0 20px;
+    }
+    .export{
+        margin-left: 15px;
+    }
+    .work_flow{
+        width: 50%;
+    }
+    .workflow{
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:1199px){
+    .overflow{
+        overflow-x: auto
+    }
+    .flex{
+        width: 1200px;
+        overflow-x: auto;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width:991px){
+    .part_main{
+        display: block;
+        padding: 0 10px;
+    }
+    .work_flow{
+        width: 100%;
+    }
+    .mapouter{
+        width: 100% !important;
+    }
+    .workflow{
+        margin-right: 0;
+        padding: 10px;
+    }
+    .sub{
+        font-size: 25px !important;
+    }
+}
+@media (max-width:767px){
+    .search input{
+        height: 30px;
+    }
+    ::ng-deep  .main .mat-form-field-infix{
+        height: 30px;
+    }
+    .btn_part button{
+        height: 30px;
+    }
+}
+@media (max-width:575px){
+    .workflow h3{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .uncom button{
+        font-size: 12px;
+    }
+    .mail input{
+        font-size: 12px;
+    }
+    .mail span{
+        font-size: 12px;
+    }
+    .sub{
+        font-size: 20px !important;
+        padding: 20px 0px 0px 20px !important;
+        margin-bottom: 15px !important;
+    }
+
+
+}
